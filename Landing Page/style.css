@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "PT Sans", sans-serif;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:20px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 99;
+}
+
+.center-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.right-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.center-div h2{
+    font-size: 20px;
+}
+
+.right-div i{
+    font-size: 20px;
+}
+
+.search-bar{
+    background-color: rgb(242, 234, 234);
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding:0px  20px;
+    font-size: 15px;
+    cursor: pointer;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.last-div i{
+    font-size: 23px;
+    background-color: #DC0D64;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.search-bar div{
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.last-div{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.search-bar div:hover{
+    background-color: white;
+}
+.gallery{
+    width: 100%;
+   margin: 50px auto;
+}
+
+.gallery .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 95%;
+   
+    margin: auto;
+    padding: 20px;
+}
+
+.gallery .col{
+    width: 300px;
+    cursor: pointer;
+   
+ 
+
+}
+
+
+
+.img-container{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.gallery img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+ }
+.gallery img:hover{
+    transform: scale(1.1);
+
+ }
+ 
+
+.col h2{
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 10px;
+}
+.col b{
+    margin-left: 10px;
+}
+.bottom-div{
+    text-align: center;
+    font-size: 24px;
+   margin: 50px auto;
+}
+
+.bottom-div button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 20px;
+     background-color: aliceblue;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media (max-width:800px) {
+    .search-bar{
+        width: 95%;
+    }
+}
+
+
