@@ -175,6 +175,12 @@ footer div{
     .search-bar{
         width: 95%;
     }
+    .center-div{
+        display: none;
+    }
+    .last-div{
+        display: none;
+    }
 }
 
 
